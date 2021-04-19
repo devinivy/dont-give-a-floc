@@ -46,10 +46,11 @@ const DontGiveAFloc = require('dont-give-a-floc');
 
 ## Extras
 
+ - [Opting your Website out of Google's FLoC Network](https://paramdeo.com/blog/opting-your-website-out-of-googles-floc-network)
+ - [How can websites opt out of the FLoC computation?](https://developer.chrome.com/blog/floc/#how-can-websites-opt-out-of-the-floc-computation)
+ - [Federated Learning of Cohorts (FLoC)](https://github.com/WICG/floc)
+ - [What is Federated Learning of Cohorts (FLoC)?](https://web.dev/floc/)
  - [WordPress to automatically disable Google FLoC on websites](https://www.bleepingcomputer.com/news/security/wordpress-to-automatically-disable-google-floc-on-websites/)
  - [Google’s FLoC Is a Terrible Idea](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea)
- - [How can websites opt out of the FLoC computation?](https://developer.chrome.com/blog/floc/#how-can-websites-opt-out-of-the-floc-computation)
- - [Opting your Website out of Google's FLoC Network](https://paramdeo.com/blog/opting-your-website-out-of-googles-floc-network)
  - [How to fight back against Google FLoC](https://plausible.io/blog/google-floc)
  - [Am I FLoCed?](https://amifloced.org/)
- - [Federated Learning of Cohorts (FLoC)](https://github.com/WICG/floc)
