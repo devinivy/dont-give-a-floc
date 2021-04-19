@@ -1,7 +1,7 @@
 # dont-give-a-floc
 Disable [FLoC](https://github.com/WICG/floc) on your hapi server
 
-[![Build Status](https://travis-ci.org/devinivy/dont-give-a-floc.svg?branch=main)](https://travis-ci.org/devinivy/dont-give-a-floc) [![Coverage Status](https://coveralls.io/repos/devinivy/dont-give-a-floc/badge.svg?branch=main&service=github)](https://coveralls.io/github/devinivy/dont-give-a-floc?branch=main)
+[![Build Status](https://travis-ci.com/devinivy/dont-give-a-floc.svg?branch=main)](https://travis-ci.com/devinivy/dont-give-a-floc) [![Coverage Status](https://coveralls.io/repos/devinivy/dont-give-a-floc/badge.svg?branch=main&service=github)](https://coveralls.io/github/devinivy/dont-give-a-floc?branch=main)
 
 ## Installation
 ```sh
