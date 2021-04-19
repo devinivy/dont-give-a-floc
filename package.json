@@ -1,0 +1,44 @@
+{
+  "name": "dont-give-a-floc",
+  "version": "1.0.0",
+  "description": "Disable FLoC on your hapi server",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "lab -a @hapi/code -t 100 -L",
+    "coveralls": "lab -r lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devinivy/dont-give-a-floc.git"
+  },
+  "keywords": [
+    "hapi",
+    "floc",
+    "security"
+  ],
+  "author": "Devin Ivy <devin@bigroomstudios.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devinivy/dont-give-a-floc/issues"
+  },
+  "homepage": "https://github.com/devinivy/dont-give-a-floc#readme",
+  "dependencies": {
+    "@hapipal/toys": "3.x.x"
+  },
+  "peerDependencies": {
+    "@hapi/hapi": ">=19"
+  },
+  "devDependencies": {
+    "@hapi/boom": "9.x.x",
+    "@hapi/code": "8.x.x",
+    "@hapi/hapi": "20.x.x",
+    "@hapi/lab": "24.x.x",
+    "coveralls": "3.x.x"
+  }
+}
