@@ -65,6 +65,20 @@ describe('DontGiveAFloc', () => {
         expect(y.headers['permissions-policy']).to.equal('interest-cohort=()');
     });
 
+    it('adds header to not-found routes when enabled.', async () => {
+
+        const server = Hapi.server();
+
+        await server.register({
+            plugin: DontGiveAFloc,
+            options: { disableFloc: true }
+        });
+
+        const unknown = await server.inject({ method: 'get', url: '/unknown' });
+        expect(unknown.statusCode).to.equal(404);
+        expect(unknown.headers['permissions-policy']).to.equal('interest-cohort=()');
+    });
+
     it('does not add header to routes by default.', async () => {
 
         const server = Hapi.server();
